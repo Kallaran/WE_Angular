@@ -2,3 +2,15 @@
 <input [(ngModel)]="id" readonly value={{id}}> 
 <input [(ngModel)]="id">
 {{id}}
+
+<ul>
+	<li *ngFor="let poke of pokes">{{poke.name}}</li>
+
+</ul>
+
+
+<select [(ngModel)]="selectedPokeId">
+	<option [value]="poke.id" *ngFor="let poke of pokes">{{poke.name}}</option>
+</select>
+
+Mon id est : {{selectedPokeId}}
