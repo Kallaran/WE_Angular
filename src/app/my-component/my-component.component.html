@@ -14,5 +14,10 @@
 <select [(ngModel)]="selectedPokeId">
 	<option [value]="poke.id" *ngFor="let poke of pokes | filterPokemonPipe:'name':searchPokeName ">{{poke.name}}</option>
 </select>
+<br>
 
 Mon id est : {{selectedPokeId}}
+
+<br>
+
+<button (click)="go()">GO</button>
