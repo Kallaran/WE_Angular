@@ -1,5 +1,25 @@
 # Pokdemo
 
+J'ai intentionnellement laissé les étapes qui ne sont plus utiles (comme l'affichage de la liste de pokemon) comme preuve de ma réponse aux questions concernées.
+
+## Quickstart
+
+```
+git clone https://github.com/Kallaran/WE_Angular.git
+cd WE_Angular/
+npm update
+ng serve
+```
+
+Click on "http://localhost:4200/"
+
+
+
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
 
 ## Development server
