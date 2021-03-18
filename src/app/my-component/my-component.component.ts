@@ -11,6 +11,7 @@ export class MyComponentComponent implements OnInit {
 
   selectedPokeId: string ='';
   id: string = '';
+  searchPokeName: string ='';
 
   pokes : Pokemon[] = [];
 
